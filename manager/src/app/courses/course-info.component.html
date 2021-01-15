@@ -1,1 +1,48 @@
-<h2 class="text-center mt-4">Course Id = {{ courseId }} </h2>
+<h2 class="text-center">Course Info</h2>
+<hr>
+
+<form #courseFor="ngForm">
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.name" name="name" #courseName="ngModel" class="form-control" required [ngClass]="{'is-invalid': courseName.invalid}">
+
+            <div class="invalid-feedback">
+                <span>Course name is required</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Price:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.price" type="number" name="price" #coursePrice="ngModel" class="form-control" required [ngClass]="{'is-invalid': coursePrice.invalid}">
+
+            <div class="invalid-feedback">
+                <span>Course price is required</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Rating:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.rating" type="number" name="rating" #courseRating="ngModel" class="form-control" required [ngClass]="{'is-invalid': courseRating.invalid}">
+
+            <div class="invalid-feedback">
+                <span>Course rating is required</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Description:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.description" name="description" #courseDescription="ngModel" class="form-control" required [ngClass]="{'is-invalid': courseDescription.invalid}">
+
+            <div class="invalid-feedback">
+                <span>Course description is required</span>
+            </div>
+        </div>
+    </div>
+</form>
