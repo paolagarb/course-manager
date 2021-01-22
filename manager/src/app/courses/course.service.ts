@@ -23,59 +23,235 @@ export class CourseService {
 }
 
 var COURSES: Course[] = [
+    { 
+        id: 1,
+        name: 'Introdução ao Angular 8',
+        imageUrl: '/assets/images/Angular.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'C# Completo',
+        imageUrl: '/assets/images/Csharp.png',
+        year: 2020,
+        platform: 'UDEMY'
+    },
+    { 
+        id: 1,
+        name: 'Linguagem De Programação C# - Avançado',
+        imageUrl: '/assets/images/Csharp.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'Linguagem De Programação C# - Básico',
+        imageUrl: '/assets/images/Csharp.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'Primeiros passos com .NET + C#',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
     {
         id: 1,
-        name: 'Angular',
-        imageUrl: '/assets/images/Angular.png',
-        price: 129.99,
-        code: 'AS31-12',
-        duration: 240,
-        rating: 4.5,    
-        releaseDate: 'December, 2, 2020',
-        description: 'Curso de ANGULAR...'
-    },
-    {
-        id: 2,
-        name: 'HTML5',
-        imageUrl: '/assets/images/HTML5.png',
-        price: 29.99,
-        code: 'HS42-10',
-        duration: 120,
-        rating: 4.0,
-        releaseDate: 'November, 7, 2020',
-        description: 'Curso de HTML5...'
-    },
-    {
-        id: 3,
-        name: 'CSS3',
-        imageUrl: '/assets/images/CSS3.png',
-        price: 39.99,
-        code: 'CGE2-15',
-        duration: 160,
-        rating: 4.5,
-        releaseDate: 'November, 2, 2020',
-        description: 'Curso de CSS3...'
-    },
-    {
-        id: 4,
         name: 'JavaScript',
         imageUrl: '/assets/images/JS.png',
-        price: 69.99,
-        code: 'JVN12-30',
-        duration: 240,
-        rating: 5.0,
-        releaseDate: 'November, 11, 2020',
-        description: 'Curso de JavaScript...'
+        year: 2020,
+        platform: 'Curso em Vídeo'
     },
-    {
-        id: 5,
-        name: 'C#',
-        imageUrl: '/assets/images/Csharp.png',
-        price: 29.99,
-        code: 'HS42-10',
-        duration: 600,
-        rating: 5.0,
-        releaseDate: 'November, 7, 2020',
-        description: 'Curso de C#...'
-    }
+    { 
+        id: 1,
+        name: 'Programação para internet com JavaScript',
+        imageUrl: '/assets/images/JS.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'JavaScript: Conceitos e Bibliotecas',
+        imageUrl: '/assets/images/JS.png',
+        year: 2020,
+        platform: 'TimTec'
+    },
+    { 
+        id: 1,
+        name: 'Construindo páginas para internet com Bootstrap',
+        imageUrl: '/assets/images/Bootstrap.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'HTML - Avançado',
+        imageUrl: '/assets/images/HTML5.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'HTML - Básico',
+        imageUrl: '/assets/images/HTML5.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'HTML Web Developer',
+        imageUrl: '/assets/images/HTML5.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'HTML5 - Introdução ao front-end',
+        imageUrl: '/assets/images/HTML5.png',
+        year: 2020,
+        platform: 'TimTec'
+    },
+    { 
+        id: 1,
+        name: 'Introdução à Linguagem HTML',
+        imageUrl: '/assets/images/HTML5.png',
+        year: 2020,
+        platform: 'DiegoMariano'
+    }, 
+    { 
+        id: 1,
+        name: 'Programação para internet com HTML5 e CSS3',
+        imageUrl: '/assets/images/HTMLeCSS.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'HTML e CSS na Prática',
+        imageUrl: '/assets/images/HTMLeCSS.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'Introdução a criação de websites com HTML5 e CSS3',
+        imageUrl: '/assets/images/HTMLeCSS.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Design de Interfaces com CSS3',
+        imageUrl: '/assets/images/CSS3.png',
+        year: 2020,
+        platform: 'TimTec'
+    },
+    { 
+        id: 1,
+        name: 'Implementando Banco de Dados',
+        imageUrl: '/assets/images/SQL.png',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    }, 
+    { 
+        id: 1,
+        name: 'Modelagem de Dados',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'Introdução ao Uso de Banco de Dados SQL',
+        imageUrl: '/assets/images/SQL.png',
+        year: 2020,
+        platform: 'TimTec'
+    },
+    { 
+        id: 1,
+        name: 'Introdução à Programação Orientada a Objetos (POO)',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'Fundação Bradesco'
+    },
+    { 
+        id: 1,
+        name: 'Lógica de Programação Essencial',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Conceitos de responsividade e experiência do usuário',
+        imageUrl: '',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Competência Transversal - Lógica de Programação',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'SENAI'
+    },
+    { 
+        id: 1,
+        name: 'Introdução ao Git e Controle de Versões',
+        imageUrl: '/assets/images/GIT.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Criando um repositório para seus projetos inovadores',
+        imageUrl:  '/assets/images/GIT.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Introdução ao GitHub e comandos para trabalhar em equipe',
+        imageUrl: '/assets/images/GitHub.png',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Introdução ao Git e ao GitHub',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 1,
+        name: 'Introdução à Linguagem de Progração PHP',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'TimTec'
+    },
+    { 
+        id: 1,
+        name: ' Introdução à Lei Brasileira de Proteção de Dados Pessoais',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'ENAP'
+    },
+    { 
+        id: 1,
+        name: 'Desvendando a Blockchain',
+        imageUrl:  '',
+        year: 2020,
+        platform: 'SENAI'
+    },
+    { 
+        id: 1,
+        name: 'Suíte Criativa - Adobe XD',
+        imageUrl: '/assets/images/AdobeXD.png',
+        year: 2020,
+        platform: 'Suíte Criativa'
+    },
 ]
