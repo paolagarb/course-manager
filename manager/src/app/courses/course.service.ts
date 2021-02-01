@@ -24,112 +24,119 @@ export class CourseService {
 
 var COURSES: Course[] = [
     { 
-        id: 1,
+        id: 34,
         name: 'Introdução ao Angular 8',
         imageUrl: '/assets/images/Angular.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 2,
+        id: 33,
+        name: 'Desenvolvimento de Aplicações com .NET',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 32,
         name: 'C# Completo',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'UDEMY'
     },
     { 
-        id: 3,
+        id: 31,
         name: 'Linguagem De Programação C# - Avançado',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 4,
+        id: 30,
         name: 'Linguagem De Programação C# - Básico',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 5,
+        id: 29,
         name: 'Primeiros passos com .NET + C#',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     {
-        id: 6,
+        id: 28,
         name: 'JavaScript',
         imageUrl: '/assets/images/JS.png',
         year: 2020,
         platform: 'Curso em Vídeo'
     },
     { 
-        id: 7,
+        id: 27,
         name: 'Programação para internet com JavaScript',
         imageUrl: '/assets/images/JS.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 8,
+        id: 26,
         name: 'JavaScript: Conceitos e Bibliotecas',
         imageUrl: '/assets/images/JS.png',
         year: 2020,
         platform: 'TimTec'
     },
     { 
-        id: 9,
+        id: 25,
         name: 'Construindo páginas para internet com Bootstrap',
         imageUrl: '/assets/images/Bootstrap.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 10,
+        id: 24,
         name: 'HTML - Avançado',
         imageUrl: '/assets/images/HTML5.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 11,
+        id: 23,
         name: 'HTML - Básico',
         imageUrl: '/assets/images/HTML5.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 12,
+        id: 22,
         name: 'HTML Web Developer',
         imageUrl: '/assets/images/HTML5.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 13,
+        id: 21,
         name: 'HTML5 - Introdução ao front-end',
         imageUrl: '/assets/images/HTML5.png',
         year: 2020,
         platform: 'TimTec'
     },
     { 
-        id: 14,
+        id: 20,
         name: 'Introdução à Linguagem HTML',
         imageUrl: '/assets/images/HTML5.png',
         year: 2020,
         platform: 'DiegoMariano'
     }, 
     { 
-        id: 15,
+        id: 19,
         name: 'Programação para internet com HTML5 e CSS3',
         imageUrl: '/assets/images/HTMLeCSS.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 16,
+        id: 18,
         name: 'HTML e CSS na Prática',
         imageUrl: '/assets/images/HTMLeCSS.png',
         year: 2020,
@@ -143,112 +150,112 @@ var COURSES: Course[] = [
         platform: 'Digital Innovation One'
     },
     { 
-        id: 18,
+        id: 16,
         name: 'Design de Interfaces com CSS3',
         imageUrl: '/assets/images/CSS3.png',
         year: 2020,
         platform: 'TimTec'
     },
     { 
-        id: 19,
+        id: 15,
         name: 'Implementando Banco de Dados',
         imageUrl: '/assets/images/SQL.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     }, 
     { 
-        id: 20,
+        id: 14,
         name: 'Modelagem de Dados',
         imageUrl:  '',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 21,
+        id: 13,
         name: 'Introdução ao Uso de Banco de Dados SQL',
         imageUrl: '/assets/images/SQL.png',
         year: 2020,
         platform: 'TimTec'
     },
     { 
-        id: 22,
+        id: 12,
         name: 'Introdução à Programação Orientada a Objetos (POO)',
         imageUrl:  '',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 23,
+        id: 11,
         name: 'Lógica de Programação Essencial',
         imageUrl:  '',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 24,
+        id: 10,
         name: 'Conceitos de responsividade e experiência do usuário',
         imageUrl: '',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 25,
+        id: 9,
         name: 'Competência Transversal - Lógica de Programação',
         imageUrl:  '',
         year: 2020,
         platform: 'SENAI'
     },
     { 
-        id: 26,
+        id: 8,
         name: 'Introdução ao Git e Controle de Versões',
         imageUrl: '/assets/images/GIT.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 27,
+        id: 7,
         name: 'Criando um repositório para seus projetos inovadores',
         imageUrl:  '/assets/images/GIT.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 28,
+        id: 6,
         name: 'Introdução ao GitHub e comandos para trabalhar em equipe',
         imageUrl: '/assets/images/GitHub.png',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 29,
+        id: 5,
         name: 'Introdução ao Git e ao GitHub',
         imageUrl:  '',
         year: 2020,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 30,
+        id: 4,
         name: 'Introdução à Linguagem de Progração PHP',
         imageUrl:  '',
         year: 2020,
         platform: 'TimTec'
     },
     { 
-        id: 31,
-        name: ' Introdução à Lei Brasileira de Proteção de Dados Pessoais',
+        id: 3,
+        name: 'Introdução à Lei Brasileira de Proteção de Dados Pessoais',
         imageUrl:  '',
         year: 2020,
         platform: 'ENAP'
     },
     { 
-        id: 32,
+        id: 2,
         name: 'Desvendando a Blockchain',
         imageUrl:  '',
         year: 2020,
         platform: 'SENAI'
     },
     { 
-        id: 33,
+        id: 1,
         name: 'Suíte Criativa - Adobe XD',
         imageUrl: '/assets/images/AdobeXD.png',
         year: 2020,
