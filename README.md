@@ -22,6 +22,8 @@
 
 - Introdução ao Angular 8
 
+- Desenvolvimento de aplicações com .NET
+
 
 #### 2020:
 
