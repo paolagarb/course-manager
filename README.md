@@ -24,6 +24,8 @@
 
 - Desenvolvimento de aplicações com .NET
 
+- Orientação a objetos em .NET (Bootcamp DIO)
+
 
 #### 2020:
 
