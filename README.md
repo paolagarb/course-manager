@@ -26,6 +26,8 @@
 
 - Orientação a objetos em .NET (Bootcamp DIO)
 
+- Estrutura de Dados e Algoritmos (Bootcamp DIO)
+
 
 #### 2020:
 
