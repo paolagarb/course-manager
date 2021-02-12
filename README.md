@@ -28,6 +28,8 @@
 
 - Estrutura de Dados e Algoritmos (Bootcamp DIO)
 
+- Desenvolvimento avançado com JavaScript
+
 
 #### 2020:
 
