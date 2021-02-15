@@ -55,7 +55,7 @@
  
 - HTML - Básico
  
-- HTML Web Developer
+- Bootcamp HTML Web Developer
  
 - HTML5 - Introdução ao Front-end
  
