@@ -24,46 +24,81 @@ export class CourseService {
 
 var COURSES: Course[] = [
     { 
-        id: 34,
+        id: 39,
         name: 'Introdução ao Angular 8',
         imageUrl: '/assets/images/Angular.png',
         year: 2021,
         platform: 'Digital Innovation One'
+    }, 
+    { 
+        id: 38,
+        name: 'Orientação a objetos em .NET (Bootcamp DIO)',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
     },
     { 
-        id: 33,
+        id: 37,
         name: 'Desenvolvimento de Aplicações com .NET',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 32,
+        id: 36,
+        name: 'Desenvolvimento avançado com JavaScript',
+        imageUrl: '/assets/images/JS.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 35,
+        name: 'Introdução ao SCRUM',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 34,
+        name: 'Estrutura de Dados e Algoritmos (Bootcamp DIO)',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 33,
         name: 'C# Completo',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'UDEMY'
     },
     { 
-        id: 31,
+        id: 32,
         name: 'Linguagem De Programação C# - Avançado',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 30,
+        id: 31,
         name: 'Linguagem De Programação C# - Básico',
         imageUrl: '/assets/images/Csharp.png',
         year: 2020,
         platform: 'Fundação Bradesco'
     },
     { 
-        id: 29,
+        id: 30,
         name: 'Primeiros passos com .NET + C#',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2020,
         platform: 'Digital Innovation One'
+    },
+    { 
+        id: 29,
+        name: 'Desenvolvimento Web',
+        imageUrl: '',
+        year: 2020,
+        platform: 'Via Rápida'
     },
     {
         id: 28,
