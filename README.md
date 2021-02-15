@@ -30,6 +30,8 @@
 
 - Desenvolvimento avançado com JavaScript
 
+- Introdução ao SCRUM
+
 
 #### 2020:
 
