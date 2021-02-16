@@ -32,6 +32,8 @@
 
 - Introdução ao SCRUM
 
+- SQL Server (Bootcamp DIO)
+
 
 #### 2020:
 
