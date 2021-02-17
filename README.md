@@ -32,6 +32,10 @@
 
 - Introdução ao SCRUM
 
+- SQL Server (Bootcamp DIO)
+
+- Introdução a orquestração de contêineres com Docker
+
 
 #### 2020:
 
