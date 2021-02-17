@@ -24,23 +24,37 @@ export class CourseService {
 
 var COURSES: Course[] = [
     { 
-        id: 39,
+        id: 41,
         name: 'Introdução ao Angular 8',
         imageUrl: '/assets/images/Angular.png',
         year: 2021,
         platform: 'Digital Innovation One'
     }, 
     { 
+        id: 40,
+        name: 'Introdução a orquestração de contêineres com Docker',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    }, 
+    { 
+        id: 39,
+        name: 'Orientação a objetos em .NET (Bootcamp)',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
         id: 38,
-        name: 'Orientação a objetos em .NET (Bootcamp DIO)',
+        name: 'Desenvolvimento de Aplicações com .NET',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
     { 
         id: 37,
-        name: 'Desenvolvimento de Aplicações com .NET',
-        imageUrl: '/assets/images/DOTNET.png',
+        name: 'SQL Server (Bootcamp)',
+        imageUrl: '/assets/images/SQL.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
