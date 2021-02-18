@@ -36,6 +36,8 @@
 
 - Introdução a orquestração de contêineres com Docker
 
+- Arquitetura de Sistemas Avançado
+
 
 #### 2020:
 
