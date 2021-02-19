@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Configuração da arquitetura back-end com .NET Core
+
 - Introdução ao Angular 8
 
 - Desenvolvimento de aplicações com .NET
