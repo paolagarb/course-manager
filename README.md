@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Modelagem de Negócios
+
 - Configuração da arquitetura back-end com .NET Core
 
 - Introdução ao Angular 8
