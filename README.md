@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Fundamentos para a Criação de Produtos Digitais
+
 - Modelagem de Negócios
 
 - Configuração da arquitetura back-end com .NET Core
