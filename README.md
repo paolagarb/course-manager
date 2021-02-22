@@ -30,6 +30,8 @@
 
 - Desenvolvimento de aplicações com .NET
 
+- Desenvolvendo sua aplicação com C# usando DDD
+
 - Orientação a objetos em .NET (Bootcamp DIO)
 
 - Estrutura de Dados e Algoritmos (Bootcamp DIO)
