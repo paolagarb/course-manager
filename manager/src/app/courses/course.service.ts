@@ -23,6 +23,27 @@ export class CourseService {
 }
 
 var COURSES: Course[] = [
+      { 
+        id: 44,
+        name: 'Modelagem de Negócios',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 43,
+        name: 'Configuração da arquitetura back-end com .NET Core',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 42,
+        name: 'Arquitetura de Sistemas Avançado',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    }, 
     { 
         id: 41,
         name: 'Introdução ao Angular 8',
