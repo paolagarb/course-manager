@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Aplicando Design Patterns na Prática com C#
+
 - Fundamentos para a Criação de Produtos Digitais
 
 - Modelagem de Negócios
