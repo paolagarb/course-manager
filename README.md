@@ -22,6 +22,10 @@
 
 - Bootcamp LocalizaLabs .NET Developer
 
+- Bootcamp MRV .NET Developer
+
+- Estratégia de Negócios com OKR
+
 - Aplicando Design Patterns na Prática com C#
 
 - Fundamentos para a Criação de Produtos Digitais
