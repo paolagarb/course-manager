@@ -23,7 +23,49 @@ export class CourseService {
 }
 
 var COURSES: Course[] = [
-      { 
+     { 
+        id: 50,
+        name: 'Bootcamp MRV .NET Developer',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 49,
+        name: 'Bootcamp localizaLabs .NET Developer',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 48,
+        name: 'Estratégia de Negócios com OKR',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 47,
+        name: 'Aplicando Design Patterns na Prática com C#',
+        imageUrl: '/assets/images/Csharp.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 46,
+        name: 'Desenvolvendo sua aplicação com C# usando DDD',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 45,
+        name: 'Fundamentos para a Criação de Produtos Digitais',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
         id: 44,
         name: 'Modelagem de Negócios',
         imageUrl: '',
