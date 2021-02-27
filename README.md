@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Bootcamp .NET Fundamentals
+
 - Bootcamp LocalizaLabs .NET Developer
 
 - Bootcamp MRV .NET Developer
