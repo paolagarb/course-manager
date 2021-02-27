@@ -23,6 +23,13 @@ export class CourseService {
 }
 
 var COURSES: Course[] = [
+      { 
+        id: 51,
+        name: 'Bootcamp .NET Fundamentals',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
      { 
         id: 50,
         name: 'Bootcamp MRV .NET Developer',
