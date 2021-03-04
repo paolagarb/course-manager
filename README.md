@@ -56,6 +56,8 @@
 
 - Arquitetura de Sistemas Avançado
 
+- Introdução à biblioteca jQuery
+
 
 #### 2020:
 
