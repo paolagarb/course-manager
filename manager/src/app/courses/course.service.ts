@@ -23,24 +23,38 @@ export class CourseService {
 }
 
 var COURSES: Course[] = [
-      { 
-        id: 51,
+    { 
+        id: 53,
+        name: 'Python',
+        imageUrl: '/assets/images/Python.png',
+        year: 2021,
+        platform: 'FIAP'
+    },
+    { 
+        id: 52,
         name: 'Bootcamp .NET Fundamentals',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
      { 
-        id: 50,
+        id: 51,
         name: 'Bootcamp MRV .NET Developer',
         imageUrl: '/assets/images/DOTNET.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
     { 
-        id: 49,
+        id: 50,
         name: 'Bootcamp localizaLabs .NET Developer',
         imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 49,
+        name: 'Introdução à Biblioteca jQuery',
+        imageUrl: '/assets/images/jQuery.png',
         year: 2021,
         platform: 'Digital Innovation One'
     },
