@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Python
+
 - Bootcamp .NET Fundamentals
 
 - Bootcamp LocalizaLabs .NET Developer
