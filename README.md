@@ -20,6 +20,8 @@
  
 #### 2021:
 
+- Python
+
 - Bootcamp .NET Fundamentals
 
 - Bootcamp LocalizaLabs .NET Developer
@@ -55,6 +57,8 @@
 - Introdução a orquestração de contêineres com Docker
 
 - Arquitetura de Sistemas Avançado
+
+- Introdução à biblioteca jQuery
 
 
 #### 2020:
