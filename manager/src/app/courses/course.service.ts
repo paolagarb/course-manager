@@ -24,6 +24,13 @@ export class CourseService {
 
 var COURSES: Course[] = [
     { 
+        id: 54,
+        name: 'User Experience',
+        imageUrl: '',
+        year: 2021,
+        platform: 'FIAP'
+    },
+    { 
         id: 53,
         name: 'Python',
         imageUrl: '/assets/images/Python.png',
