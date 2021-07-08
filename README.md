@@ -62,6 +62,8 @@
 
 - Introdução à biblioteca jQuery
 
+- Fundamentos de Arquitetura de Sistemas
+
 
 #### 2020:
 
