@@ -22,7 +22,14 @@ export class CourseService {
     }
 }
 
-var COURSES: Course[] = [
+var COURSES: Course[] = [ 
+    { 
+        id: 55,
+        name: 'Fundamentos de Arquitetura de Sistemas',
+        imageUrl: '',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
     { 
         id: 54,
         name: 'User Experience',
