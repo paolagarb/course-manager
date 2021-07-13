@@ -25,6 +25,13 @@ export class CourseService {
 var COURSES: Course[] = [ 
     { 
         id: 55,
+        name: 'Bootcamp GFT START #2 .NET',
+        imageUrl: '/assets/images/DOTNET.png',
+        year: 2021,
+        platform: 'Digital Innovation One'
+    },
+    { 
+        id: 55,
         name: 'Fundamentos de Arquitetura de Sistemas',
         imageUrl: '',
         year: 2021,
